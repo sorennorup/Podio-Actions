@@ -2,11 +2,11 @@
 // This script counts the number of items in an app and sends out a mail if the maximum is about to be reached. 
 //connect to Podio.
      require_once '../podio-php-master/PodioAPI.php';
-     $APP_ID = APP_ID;
-     $APP_TOKEN = APP_TOKEN;
-     $CLIENT_ID = CLIENT_ID;
-     $CLIENT_SECRET = CLIENT_SECRET;
-     $NUMBER_OFF_PLACES = SOME_NUMBER;
+     $APP_ID = APP_ID;                  // your app id
+     $APP_TOKEN = APP_TOKEN;           // your app token
+     $CLIENT_ID = CLIENT_ID;          // your client id
+     $CLIENT_SECRET = CLIENT_SECRET; // your client secret
+     $NUMBER_OFF_PLACES = SOME_NUMBER;//your numer off max 
 
 
      function getNumberOffPlaces(){
