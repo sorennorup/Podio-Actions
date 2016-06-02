@@ -9,7 +9,7 @@
 
 
      function getNumberOffPlaces(){
-          Podio::setup("aeresrelaterede-konflikter2014","XmkngIKUsg2gFNMoSRx9AgVmNWX5JVee3FiTsJjc8THNJABLENSRW5jrsX9sGSel");
+          Podio::setup($CLIENT_ID,$CLIENT_SECRET);
           try {
           Podio::authenticate('app', array('app_id' => $APP_ID, 'app_token' => $APP_TOKEN ));
           
